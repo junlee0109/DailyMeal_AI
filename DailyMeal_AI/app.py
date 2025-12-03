@@ -210,7 +210,7 @@ def generate_meal_plan_local(
 def main():
     st.set_page_config(page_title="DailyMeal AI (Offline)", page_icon="🍱", layout="wide")
 
-    st.title("🍱 DailyMeal AI (로컬 버전)")
+    st.title("🍱 DailyMeal AI")
     st.write("외부 API 없이, 간단한 로직으로 하루 식단을 추천해 주는 버전입니다.")
 
     left, right = st.columns([1, 1.3])
@@ -269,3 +269,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
